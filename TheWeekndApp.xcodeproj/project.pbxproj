@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074E451D1E3497FB00A1B444 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E451C1E3497FB00A1B444 /* VideoVC.swift */; };
+		074E451F1E34A0A500A1B444 /* TheWeekndCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E451E1E34A0A500A1B444 /* TheWeekndCell.swift */; };
+		074E45211E34A28D00A1B444 /* Weeknd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E45201E34A28D00A1B444 /* Weeknd.swift */; };
 		07DD04D41E34586D00F72A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DD04D31E34586D00F72A57 /* AppDelegate.swift */; };
 		07DD04D61E34586D00F72A57 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DD04D51E34586D00F72A57 /* MainVC.swift */; };
 		07DD04D91E34586D00F72A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DD04D71E34586D00F72A57 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		074E451C1E3497FB00A1B444 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		074E451E1E34A0A500A1B444 /* TheWeekndCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheWeekndCell.swift; sourceTree = "<group>"; };
+		074E45201E34A28D00A1B444 /* Weeknd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weeknd.swift; sourceTree = "<group>"; };
 		07DD04D01E34586D00F72A57 /* TheWeekndApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWeekndApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DD04D31E34586D00F72A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07DD04D51E34586D00F72A57 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -69,6 +75,7 @@
 		07DD04E51E3458E200F72A57 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				074E451C1E3497FB00A1B444 /* VideoVC.swift */,
 				07DD04D51E34586D00F72A57 /* MainVC.swift */,
 			);
 			name = Controller;
@@ -77,6 +84,7 @@
 		07DD04E61E3458FF00F72A57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				074E451E1E34A0A500A1B444 /* TheWeekndCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -84,6 +92,7 @@
 		07DD04E71E34590700F72A57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				074E45201E34A28D00A1B444 /* Weeknd.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -160,6 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074E45211E34A28D00A1B444 /* Weeknd.swift in Sources */,
+				074E451D1E3497FB00A1B444 /* VideoVC.swift in Sources */,
+				074E451F1E34A0A500A1B444 /* TheWeekndCell.swift in Sources */,
 				07DD04D61E34586D00F72A57 /* MainVC.swift in Sources */,
 				07DD04D41E34586D00F72A57 /* AppDelegate.swift in Sources */,
 			);
@@ -323,6 +335,7 @@
 				07DD04E41E34586D00F72A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
