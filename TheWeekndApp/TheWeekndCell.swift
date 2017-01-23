@@ -22,13 +22,12 @@ class TheWeekndCell: UITableViewCell {
 
     func upDateUI(weeknd: Weeknd){
         videoTitle.text = weeknd.videoTitle
-        //TODO: set image from url
-        
-        let url = URL(string: weeknd.imageURL)!
-        DispatchQueue.global().async {
+    
+        let url = URL(string: weeknd.imageURL)! // turning string to URL
+        DispatchQueue.global().async { // create thread in background
             do {
-                let data = try Data(contentsOf: url)
-                DispatchQueue.global().sync {
+                let data = try Data(contentsOf: url) // attempt to grab data from URL if not it jumps to catch to handle error
+                DispatchQueue.global().sync { // main thread to update UI
                     self.videoPreviewImage.image = UIImage (data: data)
                 }
             } catch  {
